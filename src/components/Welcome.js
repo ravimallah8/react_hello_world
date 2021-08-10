@@ -4,7 +4,7 @@ class Welcome extends Component {
     
     render() {
         const {name, heroName} = this.props
-        const {state1, state2} = this.state // if we have states
+        // const {state1, state2} = this.state // if we have states
         return <h1>Welcome {name} a.k.a {heroName}</h1>
     }
 }
